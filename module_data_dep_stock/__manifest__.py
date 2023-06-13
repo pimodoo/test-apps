@@ -1,5 +1,5 @@
 {
-    'name': 'Data Module',
+    'name': 'Data Module with sock',
     'version': '1.0',
     'author': 'PIM',
     'installable': True,
@@ -7,6 +7,7 @@
     'data': [
         'data/data.xml', 
     ],
+    'depends': ['stock']
 
 }
 
